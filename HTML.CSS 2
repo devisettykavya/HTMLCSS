@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamHome Flats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DreamHome Flats</h1>
+        <nav>
+            <ul>
+                <li><a href="#2bhk">2BHK Flats</a></li>
+                <li><a href="#3bhk">3BHK Flats</a></li>
+                <li><a href="#4bhk">4BHK Flats</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="2bhk">
+            <h2>2BHK Flats</h2>
+            <div class="flat-listing">
+                <h3>Sunrise Avenue</h3>
+                <ul>
+                    <li>Size: 1000 sq.ft.</li>
+                    <li>Price: $200,000</li>
+                    <li>Features: 2 bedrooms, 2 bathrooms, kitchen, living room</li>
+                </ul>
+                <p>Contact Representative: John Doe - 123-456-7890</p>
+                <p>Scheduled Site Visits: Every Saturday from 10am to 12pm</p>
+            </div>
+        </section>
+        <section id="3bhk">
+            <h2>3BHK Flats</h2>
+            <div class="flat-listing">
+                <h3>Sunrise Avenue</h3>
+                <ul>
+                    <li>Size: 1500 sq.ft.</li>
+                    <li>Price: $300,000</li>
+                    <li>Features: 3 bedrooms, 2 bathrooms, kitchen, living room, balcony</li>
+                </ul>
+                <p>Contact Representative: Jane Smith - 987-654-3210</p>
+                <p>Scheduled Site Visits: Every Sunday from 2pm to 4pm</p>
+            </div>
+        </section>
+        <section id="4bhk">
+            <h2>4BHK Flats</h2>
+            <div class="flat-listing">
+                <h3>Sunrise Avenue</h3>
+                <ul>
+                    <li>Size: 2000 sq.ft.</li>
+                    <li>Price: $400,000</li>
+                    <li>Features: 4 bedrooms, 3 bathrooms, kitchen, living room, dining room, balcony</li>
+                </ul>
+                <p>Contact Representative: Mike Johnson - 456-789-0123</p>
+                <p>Scheduled Site Visits: Every Wednesday from 3pm to 5pm</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 DreamHome Flats</p>
+    </footer>
+</body>
+</html>
+
+CSS
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.flat-listing {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
